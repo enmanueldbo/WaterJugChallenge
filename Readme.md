@@ -8,21 +8,14 @@ This API can resolve the water jug challenge and return step by step all the act
    git clone https://github.com/enmanueldbo/WaterJugChallenge.git
 
 ## Running project
-```bash
 1. Run the project
 
 ## Api
-1. Request parameters:
- ```bash
- x_capacity, y_capacity, z_amount_wanted.
-2. Response format:
-```bash
-Json.
+1. Request parameters: x_capacity, y_capacity, z_amount_wanted.
+2. Response format: Json.
 
 ## EndPoints
-1. Post:
-```bash
-Resolve the challenge and return a Json with all the actions made for the buckets step by step.
+1. Post: Resolve the challenge and return a Json with all the actions made for the buckets step by step.
 
 ## Algorithm
 1. Verify if is parameters are ok.
